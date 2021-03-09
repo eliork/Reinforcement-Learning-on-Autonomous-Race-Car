@@ -1,4 +1,4 @@
-# Reinforcement Learning Approach to Autonomous Race Car
+# Reinforcement Learning on Autonomous Race Car
 
 Reinforcement Learning approach to "Formula Student Technion Driverless" project, simulated in Unreal Engine 4 with AirSim plugin, using Soft Actor Critic (SAC) algorithm and Variational Auto Encoder (VAE).
 
