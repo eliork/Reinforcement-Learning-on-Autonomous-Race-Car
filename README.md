@@ -50,9 +50,14 @@ Cropped | VAE output
 
 **Reward function** is the distance of the car from the center of the track. The closer the car to the center, the higher the reward. If the car hits a cone of exits track, it gets a penalty. Center of the track is calculated by getting 2 closest WayPoints to the car, and the calculation of the distance between the car and the line connecting those 2 WayPoints.
 
- ![Screenshot from 2021-03-03 15-53-01](https://user-images.githubusercontent.com/38940464/109815678-94b78500-7c38-11eb-96d6-f9320bd783d7.png)
- :------------------------:
- WayPoints example
+ ![Screenshot from 2021-03-03 15-53-01](https://user-images.githubusercontent.com/38940464/109815678-94b78500-7c38-11eb-96d6-f9320bd783d7.png) | ![Screen Shot 2021-03-09 at 19 07 58](https://user-images.githubusercontent.com/38940464/110509482-d352b100-810a-11eb-896b-198b88fd50ba.png)
+ :------------------------:|:---------------------:
+ WayPoints example | WayPoints example
+ 
+ Calculation of distance:
+ 
+ ![equation](https://latex.codecogs.com/gif.latex?%5C%5C%20p_0%20-%20car%27s%5C%20position%20%5C%5C%20p_1%20%2C%20p_2%20-%20closest%5C%20WayPoints%20%5C%5C%20dist%20-%20distance%5C%20between%5C%20car%5C%20and%5C%20line%5C%20connecting%5C%20WayPoints%5C%20%3D%5Cfrac%7B%7C%5Cvec%7Bp_2p_1%7D%5Ctimes%5Cvec%7Bp_2p_0%7D%7C%7D%7B%7C%5Cvec%7Bp_2p_1%7D%7C%7D)
+ 
 
 
 ## Citation
