@@ -59,7 +59,7 @@ model.save("sac.zip")
 
 #################################
 
-# first learn
+# initial learning
 # use this for training from scratch.
 
 '''
