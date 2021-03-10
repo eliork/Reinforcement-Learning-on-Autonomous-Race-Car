@@ -2,6 +2,9 @@
 
 Reinforcement Learning approach to "Formula Student Technion Driverless" project, simulated in Unreal Engine 4 with AirSim plugin, using Soft Actor Critic (SAC) algorithm and Variational Auto Encoder (VAE).
 
+[Youtube Video](https://www.youtube.com/watch?v=guXkifR8_3Y)
+
+
 ![gifToGit](https://user-images.githubusercontent.com/38940464/109778141-26a99880-7c0d-11eb-801d-807bf91cded4.gif)
 
 ## Prerequisites 
@@ -22,7 +25,7 @@ Reinforcement Learning approach to "Formula Student Technion Driverless" project
 ## Run in Train Mode
 *If you wish to train your own model*
 * Choose a map, press Play, and open `train.py`  
-  * If you are training from scratch, use `first learn` in `train.py` and run
+  * If you are training from scratch, use `initial learning` in `train.py` and run
   * If you want to continue training model on another map, use `continual learning` in `train.py` and run
 
 ## Run in Train Mode + VAE Training 
@@ -53,7 +56,7 @@ Cropped | VAE output
 
  ![Screenshot from 2021-03-03 15-53-01](https://user-images.githubusercontent.com/38940464/109815678-94b78500-7c38-11eb-96d6-f9320bd783d7.png) | ![Screen Shot 2021-03-09 at 19 07 58](https://user-images.githubusercontent.com/38940464/110509482-d352b100-810a-11eb-896b-198b88fd50ba.png)
  :------------------------:|:---------------------:
- WayPoints example | WayPoints example
+ WayPoints example | Distance calculation
  
  Calculation of distance:
  
@@ -66,23 +69,25 @@ Cropped | VAE output
 If this project helped you, please cite this repository in publications:
 
 ```
-@misc{Reinforcement-Learning-Approach-to-Autonomous-Race-Car,
+@misc{Reinforcement-Learning-on-Autonomous-Race-Car,
   author = {Kanfi, Elior},
-  title = {Reinforcment Learning Approach to Autonomous Race Car},
+  title = {Reinforcement Learning on Autonomous Race Car},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/eliork/Reinforcement-Learning-Approach-to-Autonomous-Race-Car/}},
+  howpublished = {\url{https://github.com/eliork/Reinforcement-Learning-on-Autonomous-Race-Car/}},
 }
 ```
 ## Credits
-* [Formula Student Technion Driverless - Based on AirSim](https://github.com/FSTDriverless/AirSim)
+* Zadok, D.; Hirshberg, T.; Biran, A.; Radinsky, K. and Kapoor, A. (2019). Explorations and Lessons Learned in Building an Autonomous Formula SAE Car from Simulations.In Proceedings of the 9th International Conference on Simulation and Modeling Methodologies, Technologies and Applications - Volume 1: SIMULTECH, ISBN 978-989-758-381-0, pages 414-421. DOI: 10.5220/0008120604140421
 * [AirSim](https://github.com/microsoft/AirSim)
-* [Learning to Drive Smoothly in Minutes](https://github.com/araffin/learning-to-drive-in-5-minutes)
-* [learning-to-drive-in-a-day](https://github.com/r7vme/learning-to-drive-in-a-day)
-* [Stable-Baselines](https://github.com/hill-a/stable-baselines)
-* [OpenAI GYM](https://github.com/openai/gym)
 * [AWS DeepRacer](https://aws.amazon.com/deepracer/)
+* [Formula Student Technion Driverless - Based on AirSim](https://github.com/FSTDriverless/AirSim)
+* [learning-to-drive-in-a-day](https://github.com/r7vme/learning-to-drive-in-a-day)
+* [Learning to Drive Smoothly in Minutes](https://github.com/araffin/learning-to-drive-in-5-minutes)
+* [OpenAI GYM](https://github.com/openai/gym)
+* [Stable-Baselines](https://github.com/hill-a/stable-baselines)
+
 
 
 
