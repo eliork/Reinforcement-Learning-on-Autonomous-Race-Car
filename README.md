@@ -13,6 +13,7 @@ Reinforcement Learning approach to "Formula Student Technion Driverless" project
 1. Set up Unreal Engine 4, AirSim and the FSTD Environment by following this link [Ubuntu](https://github.com/eliork/Reinforcement-Learning-Approach-to-Autonomous-Race-Car2/blob/main/build_FSTDriverless_ubuntu.md) , [Windows](https://github.com/FSTDriverless/AirSim/blob/master/docs/build_FSTDriverless_windows.md)
   2. If you are using Ubuntu, you can skip this step. If you are using Windows: Download updated RaceCourse folder from this [link](https://drive.google.com/file/d/1lpBHRYYw7GRICgLaSfMQcXlbP2A98b9L/view?usp=sharing) and place it in `ProjectName\Content`
 3. Launch a new Conda environment, Python version 3.6, and install requirements with `pip install -r requirements.txt`
+4. [Download](https://drive.google.com/file/d/19LQCuAvJIzB2I0KKTGcl0_cB0uCtcuD0/view?usp=sharing) pretrained VAE model and place it in repo's directory
 
 ## Run in Test Mode
 *If you wish to reproduce results with trained model*
