@@ -2,13 +2,13 @@
 
 ## Install Unreal Engine
 
-1. Download and install Unreal Engine 4.24.3 from this [link](https://docs.unrealengine.com/en-US/SharingAndReleasing/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/index.html). While the Unreal Engine is open source and free to download, registration is still required.
+1. [Download and install Unreal Engine 4.24.3](https://docs.unrealengine.com/en-US/SharingAndReleasing/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/index.html). While the Unreal Engine is open source and free to download, registration is still required.
 
    **Note**: This project was tested only with UE 4.24.3. Other versions might work also.
    
 ## Build AirSim
 
-  1. Download and build from this [link](https://microsoft.github.io/AirSim/build_linux/) AirSim.
+  1. [Download and build AirSim](https://microsoft.github.io/AirSim/build_linux/).
 
 ## Creating and Setting Up Unreal Environment
 
