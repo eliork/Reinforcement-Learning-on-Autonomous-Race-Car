@@ -7,6 +7,18 @@ Reinforcement Learning approach to "Formula Student Technion Driverless" project
 
 ![gifToGit](https://user-images.githubusercontent.com/38940464/109778141-26a99880-7c0d-11eb-801d-807bf91cded4.gif)
 
+## Table of Contents
+
+- [Prerequisites](#Prerequisites)
+- [How To Build](#How-To-Build)
+- [Run in Test Mode](#Run-in-Test-Mode)
+- [Run in Train Mode](#Run-in-Train-Mode)
+- [Run in Train Mode + VAE Training](#Run-in-Train-Mode-+-VAE-Training)
+- [Overview](#Overview)
+- [Citation](#Citation)
+- [Credits](#Credits)
+
+
 ## Prerequisites 
 * Operating System: Ubuntu 18.04 or Windows 10
 * Software: Unreal Engine 4.24.3
