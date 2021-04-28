@@ -2,7 +2,7 @@
 
 Reinforcement Learning approach to "Formula Student Technion Driverless" project, simulated in Unreal Engine 4 with AirSim plugin, using Soft Actor Critic (SAC) algorithm and Variational Auto Encoder (VAE).
 
-[Youtube Video](https://www.youtube.com/watch?v=725uZB3qsqk)
+[Youtube Video](https://www.youtube.com/watch?v=2mk49rsoXf8)
 
 
 ![gifToGit](https://user-images.githubusercontent.com/38940464/109778141-26a99880-7c0d-11eb-801d-807bf91cded4.gif)
