@@ -4,6 +4,8 @@ Reinforcement Learning approach to "Formula Student Technion Driverless" project
 
 [Youtube Video](https://www.youtube.com/watch?v=2mk49rsoXf8)
 
+[Full Project Report](https://gip.cs.technion.ac.il/projects/uploads/180_preport_7.pdf)
+
 
 ![gifToGit](https://user-images.githubusercontent.com/38940464/109778141-26a99880-7c0d-11eb-801d-807bf91cded4.gif)
 
